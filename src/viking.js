@@ -79,6 +79,7 @@ class War {
 
     }
 
+    //some comment 
 
     saxonAttack = () => {
         let saxonSoldier = this.saxonArmy[Math.floor(Math.random() * this.saxonArmy.length)];
@@ -104,4 +105,5 @@ class War {
 
 
     }
+    return "Viking"
 }
